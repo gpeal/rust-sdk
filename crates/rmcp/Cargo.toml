@@ -207,6 +207,11 @@ required-features = ["server", "client", "macros"]
 path = "tests/test_progress_subscriber.rs"
 
 [[test]]
+name = "test_streamable_http_client"
+required-features = ["client", "transport-streamable-http-client"]
+path = "tests/test_streamable_http_client.rs"
+
+[[test]]
 name = "test_elicitation"
 required-features = ["elicitation", "client", "server"]
 path = "tests/test_elicitation.rs"
